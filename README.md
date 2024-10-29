@@ -7,9 +7,6 @@ Welcome to my CS50 portfolio! This repository contains my personal website showc
 - [About](#about)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
 
 ## About
 
@@ -27,11 +24,3 @@ This portfolio reflects my journey through the CS50 course, where I explored var
 - CSS
 - JavaScript
 - Bootstrap (for responsive design)
-
-## Installation
-
-To view the portfolio locally, follow these steps:
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/cs50-portfolio.git
