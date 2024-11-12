@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Experience</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top m-4 bg-transparent">
+        <a class="navbar-brand text-white" href="index.html">
+            <h2 class="text-white">Mayank's Portfolio</h2>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item h4">
+                    <a class="nav-link text-white fs-5" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item h4">
+                    <a class="nav-link text-white fs-5" href="projects.html">Projects</a>
+                  </li>
+                  <li class="nav-item h4">
+                    <a class="nav-link text-white fs-5" href="skills.html">Skills</a>
+                  </li>
+                  <li class="nav-item h4">
+                    <a class="nav-link text-white fs-5" href="experience.html">Experience</a>
+                  </li>
+                  <li class="nav-item h4">
+                    <a class="nav-link text-white fs-5" href="contact.html">Contact</a>
+                  </li>
+            </ul>
+        </div>
+    </nav>
+ <!-- Hero Section with Arrow -->
+ <header class="hero d-flex align-items-center justify-content-center py-5">
+    <div class="container text-center" onclick="scrollToBottom()">
+      <h2 class="text-white display-4">My Experience</h2>
+      <p class="text-white lead">Here are some of my recent experiences!</p>
+      <div class="down-arrow mt-4">
+        <i class="fas fa-arrow-down text-white"></i>
+      </div>
+    </div>
+  </header>
+<!-- Experience Section -->
+<section id="experience" class="experience py-5 mt-5">
+    <div class="container">
+        <h2 class="text-center mb-5" style="color: #f0f8ff;">Experience</h2>
+        <div>
+        <!-- Real-Time Industry Project - Spoco -->
+        <div class="row mb-4 p-4 justify-content-center" style="background-color: #003366; color: #f0f8ff; border-radius: 15px;">
+            <div class="col-md-8">
+                <h4 class="text-center" style="color: #f0f8ff;">Real-Time Industry Project: Spoco</h4>
+                <p class="text-center" style="color: #f0f8ff;">Developed a sports ground booking app called
+                    <strong>Spoco</strong>.</p>
+                <ul class="list-unstyled text-center" style="color: #f0f8ff;">
+                    <li><i class="fas fa-check-circle text-primary"></i> Used Flutter and Firebase for a responsive app
+                    </li>
+                    <li><i class="fas fa-check-circle text-primary"></i> Implemented real-time booking and management
+                        features</li>
+                    <li><i class="fas fa-check-circle text-primary"></i> Added search functionality for finding grounds
+                        by location</li>
+                    <li><i class="fas fa-check-circle text-primary"></i> Enabled user chat for player connectivity</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Management Skills for GNE's APEX 2024 -->
+        <div class="row mb-4 p-4 justify-content-center" style="background-color: #003366; color: #f0f8ff; border-radius: 15px;">
+            <div class="col-md-8">
+                <h4 class="text-center" style="color: #f0f8ff;">Management Skills: GNE's APEX 2024</h4>
+                <p class="text-center" style="color: #f0f8ff;">As a core member of the organizing team for <strong>GNE's
+                        APEX 2024</strong>, I developed management and leadership skills through event planning, team
+                    coordination, and ensuring smooth execution of the inter-school multi-event competition.</p>
+                <ul class="list-unstyled text-center" style="color: #f0f8ff;">
+                    <li><i class="fas fa-check-circle text-primary"></i> Coordinated multiple teams and maintained
+                        effective communication</li>
+                    <li><i class="fas fa-check-circle text-primary"></i> Managed event logistics, scheduling, and
+                        on-site coordination</li>
+                    <li><i class="fas fa-check-circle text-primary"></i> Collaborated closely with sponsors,
+                        participants, and volunteers</li>
+                    <li><i class="fas fa-check-circle text-primary"></i> Ensured the event's success with strong
+                        organizational skills</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function scrollToBottom() {
+      window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: "smooth",
+      });
+    }
+  </script>
+
+</body>
+</html>

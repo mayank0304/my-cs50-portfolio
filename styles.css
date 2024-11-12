@@ -102,3 +102,13 @@ form {
     margin-top: 20px; /* Add margin for spacing */
 }
 
+.experience {
+    min-height: 85vh;
+    margin-top: 20px; /* Add margin for spacing */
+}
+
+.skills {
+    min-height: 75vh;
+    margin-top: 20px; /* Add margin for spacing */
+}
+
